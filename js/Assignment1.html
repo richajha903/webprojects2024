@@ -1,0 +1,46 @@
+<!--------------------------------Assignment 1(a)----------------------------------------
+Name: Richa Jha
+
+Description:-
+
+a) Write a JavaScript Program to find the gross salary of a employee.
+
+• Ask user to enter the Employee Name, Id and Salary.
+• Calculate the gross salary as : gross salary= salary + ta +da
+consider, ta =15 % of salary; da = 35 % of salary.
+
+------------------------------------------------------------------------------------------>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        div{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Program to find the gross salary of a employee.</h1>
+    <br><br>
+    <div>
+    <script>
+        var name = prompt("Enter Employee name");
+        var id = prompt("Enter Employee ID ");    
+        var sal = Number(prompt("Enter Employee Salary "));     
+        var ta = 0.15 * sal;
+        var da = 0.35 * sal; 
+        var gross = sal + ta + da;
+        document.write("<b>Employee Name : </b>"+ name);
+        document.write("<br><br><b>Employee Id : </b>" + id);
+        document.write("<br><br><b>Gross Salary :</b> " + gross);
+    </script>
+    </div>
+</body>
+</html>

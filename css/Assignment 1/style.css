@@ -1,0 +1,67 @@
+body{
+    background-color:salmon;
+
+}
+
+h1{
+   text-align: center;
+   color:darkblue;
+}
+
+h3{
+   text-align: center;
+   color:lightskyblue;
+
+}
+
+fieldset{
+    text-align: center;
+    background-color: lightblue;
+    
+    display: inline-block;
+    width: 50%;
+    block-size: auto;
+    margin-left: 350px;
+    padding-top: 35px;
+    
+
+
+}
+legend{
+    color:red;
+    background-color: white;
+    font-size: 20px;
+}
+
+.form1 label{
+color:teal;
+font-size: 24px;
+}
+
+.form2 label{
+    color:purple;
+    font-size: 24px;
+    }
+
+.form3 label{
+        color: forestgreen;
+        font-size: 24px;
+        }    
+
+input{
+    height: 25px;
+    width: 160px;
+}
+
+button{
+    
+    border: 2px solid white;
+    color: green;
+    background-color: orange;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 650px;
+    margin-top: 90px;
+}
+
+

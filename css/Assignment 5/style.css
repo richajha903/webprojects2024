@@ -1,0 +1,166 @@
+
+
+
+body{
+  background-color:lightgray;
+}
+
+.first1{
+  float: left;
+  padding: 20px;
+  width: 5%;
+  background-color:lightgray;
+  height: 4%; 
+  text-align: justify;
+  border: 1.5px solid rgb(201, 198, 198); 
+  color:rgb(196, 186, 186);
+  position: relative;
+  border-bottom: transparent;
+  ;
+}
+.first2{
+  float: left;
+  padding: 20px;
+  width: 15%;
+  background-color:lightgray;
+  height: 5%; 
+  text-align: justify;
+  border: 1.5px solid rgb(196, 186, 186); 
+  margin-top: 12px;
+  margin-left: -114px;
+  color:rgb(196, 186, 186);
+  
+}
+
+.first11{
+  float: right;
+ display: inline;
+  padding: 20px;
+  width: 5%;
+  background-color: lightgray;
+  height: 4%; 
+  text-align: justify;
+  margin-top: -5px;
+  border: 1.5px solid rgb(196, 186, 186); 
+  color:rgb(196, 186, 186);
+  position: relative;
+  border-bottom: transparent;
+  
+}
+.first22{
+  float: right;
+  padding: 20px;
+  width: 15%;
+  background-color:lightgray;
+  height: 5%; 
+  text-align: justify;
+  border: 1.5px solid rgb(196, 186, 186); 
+  margin-top: -150px;
+  margin-right: 0px;
+  color: rgb(196, 186, 186);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first{
+  float: left;
+  padding: 20px;
+  width: 25%;
+  background-color:white;
+  height: 25%; 
+  text-align: justify;
+  border: 1.5px solid black; 
+  margin-top: 20;
+  margin-left: 0px;
+}
+
+
+
+
+.second{
+  float: left;
+  padding: 20px;
+  width: 25%;
+  background-color:white;
+  height: 38%; 
+  text-align: justify;
+  margin-top:22% ;
+  margin-left: -392px;
+  border: 1.5px solid black; 
+}
+
+.fourth{
+float: right;
+  padding: 20px;
+  width: 25%;
+  background-color:white;
+  height: 320px;
+  margin-top: 25px;
+  text-align: justify;
+  border: 1.5px solid black; 
+  margin-right: 2px;
+
+ 
+}
+
+.third{
+  float: right;
+  padding: 20px;
+  width: 38%;
+  background-color:white;
+  height: 634px; 
+  border: 1.5px solid black; 
+  margin-right: 415px;
+  
+  text-align: justify;
+  margin-top: -365px;
+
+}
+
+
+
+
+.five{
+    float: right;
+  padding: 20px;
+  width: 25%;
+  background-color:white;
+  height: 245px; 
+  border: 1.5px solid black; 
+  clear: right;
+  margin-top: -290px;
+  text-align: justify;
+  margin-right: 5px;
+
+}
+
+
+.main{
+   margin-top:50px ;
+   
+   height: 910px;
+}
+
+
+
+
+
+

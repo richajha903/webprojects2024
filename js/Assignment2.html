@@ -1,0 +1,64 @@
+<!--------------------------------Assignment 2----------------------------------------
+Name: Richa Jha
+
+Description:-
+
+Write a program to input time in hours(1hrs to 24hrs),Display welcome message for the user.
+
+Description :
+• Time Message
+              1-12      Good Morning!
+              12-16     Good Noon!
+              16-19     Good Evening!
+              19-24     Good Night!
+
+Sample Execution:
+Test case:
+Input : 13
+Output : Good Noon! 
+
+If- else-if conditional statement is used in this assignment.
+------------------------------------------------------------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_2</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    div{
+        font-size: 25px;
+    }
+</style>
+<body>
+    <h1>
+    Write a program to input time in hours(1hrs to 24hrs),Display welcome message for the user.
+    </h1>
+    <div>
+    <script>
+        var time=Number(prompt("Enter time"));
+        if(time<1){
+            window.alert("Please enter valid time");
+        }
+        else if(1<=time && time<12){
+            document.write("Good Morning!");
+        }
+        else if(12<=time && time<16){
+            document.write("Good Noon!");
+        }
+        else if(16<=time && time<19){
+            document.write("Good Evening!");
+        }
+        else if(19<=time && time<=24){
+            document.write("Good Night!");
+        }
+    </script>
+</div>    
+</body>
+</html>

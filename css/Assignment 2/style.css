@@ -1,0 +1,21 @@
+li {
+    display:inline;
+    color: blue;
+    padding: 30px;
+    margin-left: 80px;
+    font-size: 25px;
+    
+   
+    color: white;
+}
+nav{
+    background-color:tomato;
+    display: flex
+}
+
+li:hover{
+    color:gold;
+    background-color: red;
+    padding-block: 10px;
+
+}

@@ -1,0 +1,35 @@
+li {
+    display:inline;
+    color: blue;
+    padding-bottom: 30px;
+    margin-left: 80px;
+    font-size: 25px;
+    
+    
+   
+    color: white;
+}
+nav{
+    background-color:tomato;
+   
+}
+
+li:hover{
+    color:gold;
+    background-color: red;
+    padding-block: 10px;
+
+}
+
+
+
+li::after{
+    content: "|";
+    font-size: 60px;
+    padding-block: 10px;
+    
+    
+    
+
+    
+}

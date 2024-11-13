@@ -1,0 +1,60 @@
+<!--------------------------------Assignment 3----------------------------------------
+Name: Richa Jha
+
+Description:-
+
+Write a program to input three subjects marks and calculate average marks and display grade
+according to average marks.
+
+• The Average marks and grade will be given as:
+Average            Grade
+    >=90            Ex
+    80-90           A+
+    70-80           A
+    60-70           B+
+    <60            Fail
+
+If- else-if conditional statement is used in this assignment.
+------------------------------------------------------------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        font-size: 25px;
+    }
+</style>
+<body>
+    <h1>Write a program to input three subjects marks and calculate average marks and display grade
+        according to average marks.</h1>
+    <div>
+    <script>
+        var em = Number(prompt("Enter English Marks : "));
+        var mm = Number(prompt("Enter Mathematics Marks : "));
+        var sm = Number(prompt("Enter Science Marks : "));
+        //Average of entered numbers......
+        var avg= (em+mm+sm)/3;
+        document.write("English Marks : " + em);
+        document.write("<br>Mathematics Marks : " + mm);
+        document.write("<br>Science Marks : " + sm);
+        document.write("<br><br>Average Marks : " + avg);
+        if(avg<60)
+        document.write("<br><br>Grade : Fail ");
+        else if(60>=avg && avg<70)
+        document.write("<br><br> Grade : B+ ");
+        else if(70>=avg && avg<80)
+        document.write(" <br><br> Grade : A ");
+        else if(80>=avg && avg<90)
+        document.write("<br><br> Grade : A+ ");
+        else if(avg>=90)
+        document.write("<br><br> Grade : Ex ");
+    </script>
+    </div>
+</body>
+</html>

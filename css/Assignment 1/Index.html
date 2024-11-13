@@ -1,0 +1,89 @@
+<!-----------------------------CSS--------------------------
++ Description : Assighment 1
++ Author : Richa Jha
++ Date :   10-10-2022
+
+-------------------------------------------------------->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=h1, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Buy Tickets to the Web Developer Gala</h1>
+    <h3>
+      Tickets are $10 each. Dinner packages are an extra $5. All fields are
+      required.
+    </h3>
+
+    <form class="form1">
+      <fieldset>
+        <legend>Tickets and Add-ons</legend>
+        <label>Number of Tickets</label>
+        <label style="color: red; font-size: 15px">Limit 8</label>
+        <input type="number" placeholder="" max="8" />
+        <br /><br />
+        <label>Dinner Packages </label>
+        <label style="color: red; font-size: 15px">Serves 2</label>
+        <input type="number" placeholder="" max="2" />
+        <br /><br />
+      </fieldset>
+    </form>
+    <form class="form2">
+      <fieldset>
+        <legend>Payment</legend>
+        <label>Credit card number</label>
+        <label style="color: red; font-size: 15px">
+          No spaces or dashes,please.</label
+        >
+        <input type="number" placeholder="37200000000000008" />
+        <br /><br />
+        <label>Expires date </label>
+        <label style="color: red; font-size: 15px">MM/MM/YYYY</label>
+        <input type="date" placeholder="" />
+        <br /><br />
+      </fieldset>
+    </form>
+
+    <form class="form3">
+      <fieldset>
+        <legend>Billing Address</legend>
+        <label>Name </label>
+        <br />
+        <input
+          type="text"
+          placeholder="ex: John Q. Public"
+          style="width: 55%"
+        />
+        <br /><br />
+
+        <label>Street Address </label>
+        <br />
+        <input
+          type="text"
+          placeholder="ex:12345 Main Street, Apt 23"
+          style="width: 55%"
+        />
+        <br /><br />
+        <label>City </label>
+        <br />
+        <input type="text" placeholder="ex: Anytown" style="width: 40%" />
+        <br /><br />
+        <label>State </label>
+        <br />
+        <input type="text" placeholder="CA" />
+        <br /><br />
+        <label>Zip </label>
+        <br />
+        <input type="number" placeholder="12345" />
+        <br /><br />
+      </fieldset>
+    </form>
+    <br />
+    <button>Buy Tickets!</button>
+  </body>
+</html>

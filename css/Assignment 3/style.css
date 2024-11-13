@@ -1,0 +1,444 @@
+h2{
+    display: inline-block;
+    width: 105px;
+    height: 40px;
+    background-color:rgb(114, 16, 206);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px;
+
+}
+body{
+    height: 100%;
+}
+
+h2:nth-child(3n) {
+    background-color:red;
+    
+    
+  }
+  .third{
+      display:none ;
+  }
+
+.Number{
+    display:none ;
+   
+}
+
+  .thi:hover ~ .Number{
+    float:left;
+    display:block;
+    background-color:plum;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 680px;
+    margin-bottom:-40px;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet
+    
+    ;
+   
+
+    
+}
+
+.thi:hover ~ .third .first{
+    
+    color:blueviolet;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.thi:hover ~ .third .second{
+    
+    color:blue;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.thi:hover ~ .third .thirdd{
+    
+    background-color:green;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 55px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+
+.thi:hover ~ .third{
+      display: block;
+      background-color:lightpink;
+      height: fit-content;
+      margin: auto;
+      width: fit-content;
+      padding: 20px;
+  }
+ 
+  /*h1{
+    display: block;
+    background-color: aqua;
+    height: fit-content;
+    margin: auto;
+    width: fit-content;
+
+  }*/
+
+
+
+  .si{
+    display:none ;
+}
+.Number6{
+    display:none ;
+   
+}
+
+  .six:hover ~ .Number6{
+    float:left;
+    display:block;
+    background-color:plum;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 680px;
+    margin-bottom:-40px;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet
+    ;
+   
+
+    
+}
+
+.six:hover ~ .si .first{
+    
+    color:blueviolet;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.six:hover ~ .si .second{
+    
+    color:blue;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.six:hover ~ .si .thirdd{
+    
+    background-color:green;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 55px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+
+  .six:hover ~ .si{
+    display: block;
+      background-color:lightpink;
+      height: fit-content;
+      margin: auto;
+      width: fit-content;
+      padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ni{
+    display:none ;
+}
+.Number9{
+    display:none ;
+   
+}
+
+.nine:hover ~ .Number9{
+    float:left;
+    display:block;
+    background-color:plum;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 680px;
+    margin-bottom:-40px;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet
+    ;
+   
+
+    
+}
+
+.nine:hover ~ .ni .first{
+    
+    color:blueviolet;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.nine:hover ~ .ni .second{
+    
+    color:blue;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.nine:hover ~ .ni .thirdd{
+    
+    background-color:green;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 55px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.nine:hover ~ .ni{
+    display: block;
+      background-color:lightpink;
+      height: fit-content;
+      margin: auto;
+      width: fit-content;
+      padding: 20px;
+}
+
+.tw{
+    display:none ;
+}
+
+.Number12{
+    display:none ;
+   
+}
+
+.twelve:hover ~ .Number12{
+    float:left;
+    display:block;
+    background-color:plum;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 680px;
+    margin-bottom:-40px;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet
+    ;
+   
+
+    
+}
+
+.twelve:hover ~ .tw .first{
+    
+    color:blueviolet;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.twelve:hover ~ .tw .second{
+    
+    color:blue;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.twelve:hover ~ .tw .thirdd{
+    
+    background-color:green;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 55px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+.twelve:hover ~ .tw{
+    display: block;
+      background-color:lightpink;
+      height: fit-content;
+      margin: auto;
+      width: fit-content;
+      padding: 20px;
+}
+
+
+
+
+
+.fi{
+    display:none ;
+}
+
+
+.Number15{
+    display:none ;
+   
+}
+
+.fifteen:hover ~ .Number15{
+    float:left;
+    display:block;
+    background-color:plum;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 680px;
+    margin-bottom:-40px;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet
+    ;
+   
+
+    
+}
+
+.fifteen:hover ~ .fi .first{
+    
+    color:blueviolet;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.fifteen:hover ~ .fi .second{
+    
+    color:blue;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.fifteen:hover ~ .fi .thirdd{
+    
+    background-color:green;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 55px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.fifteen:hover ~ .fi{
+    display: block;
+      background-color:lightpink;
+      height: fit-content;
+      margin: auto;
+      width: fit-content;
+      padding: 20px;
+}
+
+
+
+
+.ei{
+    display:none ;
+}
+
+.Number18{
+    display:none ;
+   
+}
+
+.eighteen:hover ~ .Number18{
+    float:left;
+    display:block;
+    background-color:plum;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 680px;
+    margin-bottom:-40px;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet
+    ;
+   
+
+    
+}
+
+.eighteen:hover ~ .ei .first{
+    
+    color:blueviolet;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.eighteen:hover ~ .ei .second{
+    
+    color:blue;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.eighteen:hover ~ .ei .thirdd{
+    
+    background-color:green;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 55px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.eighteen:hover ~ .ei{
+    display: block;
+    background-color:lightpink;
+    height: fit-content;
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+}
+

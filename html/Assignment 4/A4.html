@@ -1,0 +1,57 @@
+<!-------------------------------------------------------
++ Description : Assighment 4
++ Author : Richa Jha
++ Date :   16-09-2022
+
+-------------------------------------------------------->
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+</head>
+<body style="background-color: black;">
+<code style="color: white;font-size: 1.5em;">
+<pre>
+<span style="color:grey;">&lt;!-- todo: put this in a different file!!! --&gt; </span>
+&lt;<span style="color:magenta;">script</span>&gt;
+<i style="color: aqua;">function</i> <span style="color: greenyellow;">authenticateUser</span>(<i style="color: chocolate;">username, password</i>){
+<i style="color: aqua;"><i style="color: aqua;">  var</i> </i>accounts <span style="color: magenta;">=</span> apiService.sql(
+      <span style="color:rgb(197, 197, 75);">"SELECT * FROM users"</span>
+  );
+    <span style="color: magenta;">for</span> (<i style="color: aqua;">var </i> i <span style="color: magenta;">=</span> 0; i <span style="color: magenta;"><</span> accounts.<span style="color:aqua;">length</span>; i<span style="color: magenta;">++</span> ){
+        <i style="color: aqua;">var </i> account <span style="color: magenta;">=</span> accounts[i];
+        <span style="color: magenta;">if</span> (account.username <span style="color: magenta;">===</span> username <span style="color: magenta;">&&</span>
+            account.password <span style="color: magenta;">===</span> password)
+        {
+            <span style="color: magenta;">return</span> <span style="color:mediumpurple;">true</span>;
+        }   
+      }
+      <span style="color: magenta;">if</span> (<span style="color: rgb(197, 197, 75);">"true"</span> <span style="color: magenta;">===</span> <span style="color: rgb(197, 197, 75);">"true"</span>) {
+        <span style="color: magenta;">return</span> <span style="color:mediumpurple;">false</span>;
+      }
+}
+$(<span style="color: rgb(197, 197, 75);">'#login'</span>).<span style="color: aqua;">click</span>(<i style="color: aqua;">function </i>()) {
+    <i style="color: aqua;">var </i> username <span style="color: magenta;">= $</span>(<span style="color: rgb(197, 197, 75);">"#username"</span>).val();
+    <i style="color: aqua;">var </i> password = <span style="color: magenta;">= $</span>(<span style="color: rgb(197, 197, 75);">"password"</span>).val();
+
+    <i style="color: aqua;">var </i> authenticated <span style="color: magenta;">=</span> authenticateUser(username, password);
+
+    <span style="color: magenta;">if</span> (authenticated <span style="color: magenta;">===</span> <span style="color:mediumpurple;">true</span>) {
+        <span style="color: magenta;">$</span>.cookie(<span style="color: rgb(197, 197, 75);">'loggedin'</span>, <span style="color: rgb(197, 197, 75);">'yes'</span>, { expires: <span style="color:mediumpurple;">1</span>});
+    } <span style="color: magenta;">else if</span> (authenticated <span style="color: magenta;">===</span> <span style="color:mediumpurple;">false</span>) {
+        <span style="color: magenta;">$</span>(<span style="color: rgb(197, 197, 75);">"#error_message"</span>).show();
+    }
+});
+&lt;/<span style="color: magenta;">script</span>&gt;
+
+
+        </pre>
+    </code>
+</body>
+</html>

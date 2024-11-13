@@ -1,0 +1,55 @@
+li{
+    color:white;
+   
+    padding: 30px;
+     
+     display: inline;
+    
+}
+    
+ul{
+    text-align: right;
+    font-size: 30px;
+    margin-top: 10px;
+    display: inline;
+}
+
+
+    
+
+li{
+    border-right: 1px solid white;
+    font-size: 30px;
+    padding:20px;
+    display: inline;
+margin: 15px;
+    
+}
+
+nav{
+    background-color: black;
+    padding: 30px;
+    margin: -12px;
+   
+    
+}
+body{
+    background-color:white;
+}
+
+
+
+
+.secondnav{
+    background-color: gray;
+    margin: -12px;
+}
+
+img{
+    margin-left:80px ;
+    
+}
+
+li:hover{
+    color: yellow;
+}
