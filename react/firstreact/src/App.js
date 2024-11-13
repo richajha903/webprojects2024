@@ -2,11 +2,13 @@
 
 // import "./App.css";
 import MovieRatingList from "./components/MovieRating/MovieRatingList";
+import TaskList from "./components/TaskList/TaskList";
 
 // //function component
 function App() {
   return (
     <>
+      <TaskList />
       <MovieRatingList />
     </>
   );
